@@ -129,15 +129,32 @@
     margin-left: 200px;
 }
 
-.pokerPlay{
+.pokerSelec{
     background: white;
-    width: 30px;
+    width: 150px;
     height: 40px;
-    margin-top: -50px;
-    margin-left: 250px;
+    margin-top: 10px;
+    margin-left: 150px;
 }
 
+.imgPoker{
+    width: 30px;
+    height: 40px;
+}
 
+.comboPoker{
+    width: 115px; 
+    height: 40px;
+}
+
+.pokerPlay{
+    background: white;
+    width: 80px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 200px;
+}
 
 .boton {
     padding:15px;
@@ -150,6 +167,12 @@
     border:#CCC;
     border-style:double;
     border-radius: 30px;
+}
+
+.play{
+    position:absolute;
+    height: 40px;
+    border-radius: 200px;
 }
 
 #boton1 {  

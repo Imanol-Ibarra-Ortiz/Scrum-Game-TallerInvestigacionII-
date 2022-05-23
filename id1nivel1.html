@@ -31,6 +31,27 @@
     <div class="col5 equipo">
       <div class="col1 avatar">
         <img class="imgAvatar" src="imagenes/avatar1.png" alt="">
+        <dialog id="favDialog">
+          <form method="dialog">
+            <section>
+              <p><label for="favAnimal">Favorite animal:</label>
+              <select id="favAnimal">
+                <option></option>
+                <option>Brine shrimp</option>
+                <option>Red panda</option>
+                <option>Spider monkey</option>
+              </select></p>
+            </section>
+            <menu>
+              <button id="cancel" type="reset">Cancel</button>
+              <button type="submit">Confirm</button>
+            </menu>
+          </form>
+        </dialog>
+        
+        <menu>
+          <button id="updateDetails">Update details</button>
+        </menu>
       </div>
       <div class="col1 avatar">
         <img class="imgAvatar" src="imagenes/avatar2.png" alt="">
@@ -101,19 +122,44 @@
     <div class="col2"></div>
     <div class="col6 planing">
       <div class="TituoPlaning">Planing Poker </div>
-      <div class="col1 poker"></div>
+      <div class="col1 poker">5</div>
       <div class="col1"></div>
-      <div class="col1 poker"></div>
+      <div class="col1 poker">13</div>
       <div class="col1"></div>
-      <div class="col1 poker"></div>
+      <div class="col1 poker">20</div>
 
-      <div class="col4 descripcion"></div>
+      <div class="col4 descripcion">
+        Como usuario del roboot, quiero que tenga brazos 
+        articulados cuando este en su forma humanoide.
+      </div>
 
-      <div class="col1 pokerUsu"></div>
-      <div class="col1 pokerPlay"></div>
+      <div class="col1 pokerUsu">
+        8
+      </div>
+      
     </div>
     <div class="col6 opciones">
       <div class="opcionesT"> Opciones </div>
+      <div class="col1 pokerSelec">
+        <img src="imagenes/poker.jpg" class="imgPoker" alt="">
+        <select class="comboPoker">
+          <option>1</option>
+          <option>1/2</option>
+          <option>2</option>
+          <option>3</option>
+          <option>5</option>
+          <option>8</option>
+          <option>13</option>
+          <option>20</option>
+          <option>40</option>
+          <option>100</option>
+          <option>Infinito</option>
+          <option>?</option>
+        </select>
+      </div>
+      <div class="col1 pokerPlay">
+        <button name="button" class="play">Play Card</button>
+      </div>
     </div>
     <div class="col1 avatar">
       <img class="imgAvatar" src="imagenes/avatarUsuario.png" alt="">
