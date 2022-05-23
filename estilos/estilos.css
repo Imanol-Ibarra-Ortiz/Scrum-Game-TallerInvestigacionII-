@@ -153,14 +153,14 @@
 }
 
 #boton1 {  
-    background:#0081c6;
+    background:grey;
     position:absolute;
     left: 5%;
     
 }
 
 #boton2 {
-    background:#00c64c;
+    background:#0081c6;
     position:absolute;
     left: 85%;
     
