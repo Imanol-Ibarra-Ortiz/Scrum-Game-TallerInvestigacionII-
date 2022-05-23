@@ -136,3 +136,32 @@
     margin-top: -50px;
     margin-left: 250px;
 }
+
+
+
+.boton {
+    padding:15px;
+    color:white;
+    font:bold 10px/10px verdana;
+    width:100px;
+    cursor:pointer;
+    cursor:hand;
+    text-align:center;
+    border:#CCC;
+    border-style:double;
+    border-radius: 30px;
+}
+
+#boton1 {  
+    background:#0081c6;
+    position:absolute;
+    left: 5%;
+    
+}
+
+#boton2 {
+    background:#00c64c;
+    position:absolute;
+    left: 85%;
+    
+}
