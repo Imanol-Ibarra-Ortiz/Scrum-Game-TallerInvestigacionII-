@@ -30,42 +30,45 @@
     <div class="col3 espEqui"></div>
     <div class="col5 equipo">
       <div class="col1 avatar">
+        Chalie
         <img class="imgAvatar" src="imagenes/avatar1.png" alt="">
-        <dialog id="favDialog">
-          <form method="dialog">
-            <section>
-              <p><label for="favAnimal">Favorite animal:</label>
-              <select id="favAnimal">
-                <option></option>
-                <option>Brine shrimp</option>
-                <option>Red panda</option>
-                <option>Spider monkey</option>
-              </select></p>
-            </section>
-            <menu>
-              <button id="cancel" type="reset">Cancel</button>
-              <button type="submit">Confirm</button>
-            </menu>
-          </form>
-        </dialog>
-        
-        <menu>
-          <button id="updateDetails">Update details</button>
-        </menu>
+        <button type="button" class="hablar" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+          Skills
+        </button>
+        <button type="button" class="hablar" data-bs-toggle="modal" 
+        data-bs-target="#exampleModal" data-bs-whatever="@mdo">Hablar</button>
       </div>
       <div class="col1 avatar">
+        Parker
         <img class="imgAvatar" src="imagenes/avatar2.png" alt="">
+        <button type="button" class="hablar" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+          Skills
+        </button>
+        <button type="button" class="hablar" data-bs-toggle="modal" 
+        data-bs-target="#exampleModal" data-bs-whatever="@mdo">Hablar</button>
       </div>
       <div class="col1 avatar">
+        Taylor
         <img class="imgAvatar" src="imagenes/avatar3.png" alt="">
+        <button type="button" class="hablar" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+          Skills
+        </button>
+        <button type="button" class="hablar" data-bs-toggle="modal" 
+        data-bs-target="#exampleModal" data-bs-whatever="@mdo">Hablar</button>
       </div>
     </div>
     <div class="col2 ScrumMasOwner">
       <div class="col1 avatar">
+        <h6 style="font-size: 7px;">Cameron Scrum Master</h6>
         <img class="imgAvatar" src="imagenes/avatarScrumM.png" alt="">
+        <button type="button" class="hablar" data-bs-toggle="modal" 
+        data-bs-target="#exampleModal" data-bs-whatever="@mdo">Hablar</button>
       </div>
       <div class="col1 avatar">
+        <h6 style="font-size: 7px;">Robin Product Owner</h6>
         <img class="imgAvatar" src="imagenes/avatarProductO.png" alt="">
+        <button type="button" class="hablar" data-bs-toggle="modal" 
+        data-bs-target="#exampleModal" data-bs-whatever="@mdo">Hablar</button>
       </div>
     </div>
   </div>
@@ -122,7 +125,7 @@
     <div class="col2"></div>
     <div class="col6 planing">
       <div class="TituoPlaning">Planing Poker </div>
-      <div class="col1 poker">5</div>
+      <div class="col1 poker">8</div>
       <div class="col1"></div>
       <div class="col1 poker">13</div>
       <div class="col1"></div>
@@ -134,7 +137,7 @@
       </div>
 
       <div class="col1 pokerUsu">
-        8
+        5
       </div>
       
     </div>
@@ -163,6 +166,92 @@
     </div>
     <div class="col1 avatar">
       <img class="imgAvatar" src="imagenes/avatarUsuario.png" alt="">
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Hablar con el equipo</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Message:</label>
+            <textarea class="form-control" id="message-text">
+              Bueno, estime esta historia de usuario en 8,
+              pero no estoy muy seguro de mi estimacion...
+              Escuchemos lo que los demas tienen que decir.
+            </textarea>
+          </div>
+          <div class="mb-3">
+            <select>
+              <option>Nada</option>
+              <option>Analicemos su estimcion actual</option>
+            </select>
+            <button name="button">Decir</button>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Skills</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <p> Electronica </p>
+        Ingeniero Electrico
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Skills</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Ingeniera Mecanica</p>
+        Ingeniera Electrica
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Skills</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       Programador
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
     </div>
   </div>
 </div>
